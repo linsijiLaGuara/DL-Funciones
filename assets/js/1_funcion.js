@@ -10,4 +10,5 @@ function example(a, b, c) {
 let example_2 = function (a, b, c) {
   return a + b + c;
 };
+console.log(example_2(1, 1, 1));
 
