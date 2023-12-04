@@ -1,39 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 * {
-    margin: 0;
-    background-color: rgb(114, 207, 178)
+  margin: 0;
+  background-color: rgb(164, 231, 210)
 }
 
 
 .ele1 {
-    margin-top: 15px;
-    border-radius: 5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 15px;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .color1 {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-  }
-  
-  .color2 {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-  }
-  
-  .color3 {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-  }
-  
-  .color4 {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-  }
-  
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.color2 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+
+.color3 {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.color4 {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+.cambioColores {
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 10%;
+}
+
+.textoSiguiente {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+
+
+
+}
