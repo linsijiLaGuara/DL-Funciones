@@ -13,3 +13,27 @@
     justify-content: center;
     align-items: center;
 }
+.color1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+  
+  .color2 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+  
+  .color3 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+  }
+  
+  .color4 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+  }
+  
