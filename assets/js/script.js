@@ -8,12 +8,6 @@ se agrega un if para quie cambie dos veces de colores
 const ele = document.getElementById("ele1");
 let colorToggle = true;
 
-ele.addEventListener("click", function pintar() {
-  if (colorToggle) {
-    ele.style.backgroundColor = "yellow";
-  } else {
-    ele.style.backgroundColor = "lightblue";
-  }
-
-  colorToggle = !colorToggle;
+ele.addEventListener("click", function pintar(e,color = "green") {
+  ele.style.backgroundColor = color;
 });
