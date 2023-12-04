@@ -18,32 +18,28 @@
   width: 200px;
   height: 200px;
   background-color: blue;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .color2 {
   width: 200px;
   height: 200px;
   background-color: red;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .color3 {
   width: 200px;
   height: 200px;
   background-color: green;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .color4 {
   width: 200px;
   height: 200px;
   background-color: yellow;
-  align-items: center;
-  justify-content: center;
+
 }
 
 .cambioColores {
@@ -64,4 +60,16 @@
   flex-direction: column;
   margin-top: 10%;
   align-items: center;
+}
+
+#container {
+  display: flex;
+}
+
+.colorDiv {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  margin-right: 10px; 
 }
