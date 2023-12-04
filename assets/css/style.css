@@ -2,56 +2,66 @@
 
 * {
   margin: 0;
-  background-color: rgb(164, 231, 210)
+  background-color: rgb(226, 245, 239)
 }
 
 
-.ele1 {
-  margin-top: 15px;
-  border-radius: 5%;
+.fondocolor {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
+  margin-top: 10%;
+
 }
 
 .color1 {
   width: 200px;
   height: 200px;
   background-color: blue;
+  align-items: center;
+  justify-content: center;
 }
 
 .color2 {
   width: 200px;
   height: 200px;
   background-color: red;
+  align-items: center;
+  justify-content: center;
 }
 
 .color3 {
   width: 200px;
   height: 200px;
   background-color: green;
+  align-items: center;
+  justify-content: center;
 }
 
 .color4 {
   width: 200px;
   height: 200px;
   background-color: yellow;
+  align-items: center;
+  justify-content: center;
 }
 
 .cambioColores {
 
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  gap: 50px;
-  margin-top: 10%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5%;
+  padding-right: 5%;
+}
+
+.textoclick {
+  text-align: center;
 }
 
 .textoSiguiente {
   display: flex;
   flex-direction: column;
   margin-top: 10%;
-
-
-
+  align-items: center;
 }
