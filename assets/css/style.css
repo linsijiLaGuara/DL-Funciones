@@ -62,8 +62,18 @@
   align-items: center;
 }
 
+.contenedor-agregadiv {
+  text-align: center; 
+}
+
+h3 {
+  margin-top: 20px; 
+}
+
 #container {
   display: flex;
+  justify-content: center; /* Centra los divs horizontalmente */
+  margin-top: 20px; /* Ajusta el margen superior según tus necesidades */
 }
 
 .colorDiv {
@@ -73,3 +83,4 @@
   border: 2px solid black;
   margin-right: 10px; 
 }
+
